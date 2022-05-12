@@ -5,12 +5,13 @@ module program_counter(PC0, PC1, clk);
     output reg [31:0] PC1;
     input clk;
     
-    //ALU add(.op1(PC0), .op2(PC1), .OpCode(4'b1001), .Cin(0), .result(wResult), .cflag, .zflag, .oflag, .clk(clk));
+    //ALU add_one(.op1(PC0), .op2('b1), .OpCode(4'b1001), .Cin(0), .result(PC1), .cflag, .zflag, .oflag, .clk(clk));
     
     always @(posedge clk) 
     begin
         PC1 <= PC0 + 1;
     end
+    
 endmodule
 
 module program_counter_tb();
