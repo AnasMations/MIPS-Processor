@@ -1,0 +1,785 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 5084
+
+Current time: 	5/12/22 2:06:27 PM EET
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1360x768
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	A:/Downloads/Applications/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	AnasMations
+User home directory: C:/Users/AnasMations
+User working directory: A:/Desktop/Github/CPU/CPU_Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: A:/Downloads/Applications/Xilinx/Vivado
+RDI Data directory: A:/Downloads/Applications/Xilinx/Vivado/2016.2/data
+RDI Bin directory: A:/Downloads/Applications/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/AnasMations/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/AnasMations/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	205 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 518 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 55 MB (+54797kb) [00:00:03]
+// [Engine Memory]: 380 MB (+247052kb) [00:00:03]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: A:\Desktop\Github\CPU\CPU_Project\CPU_Project.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project A:/Desktop/Github/CPU/CPU_Project/CPU_Project.xpr 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 495 MB (+100998kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project A:/Desktop/Github/CPU/CPU_Project/CPU_Project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'A:/Desktop/CSCI311 Project/CPU_Project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'A:/Downloads/Applications/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 528 MB (+8340kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 528 MB. GUI used memory: 34 MB. Current time: 5/12/22 2:06:28 PM EET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: CPU_Project; location: A:/Desktop/Github/CPU/CPU_Project; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 802.238 ; gain = 147.371 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (F:JPanel, b:g)
+// J:x (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "test"); // ao:JTextField (JPanel:JComponent, J:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:x)
+dismissDialog("Create Source File"); // J:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+// Tcl Message: close [ open A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/test.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/test.v 
+// M:x (cv:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:x)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, M:x)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // M:x (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_Counter (program_counter.v)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, test.v]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, test.v]", 2, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // h:JCheckBox (JPanel:JComponent, aB:g): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+// 'c' command handler elapsed time: 3 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/test.v 
+// Tcl Message: file delete -force A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/test.v 
+// [GUI Memory]: 60 MB (+2341kb) [00:00:50]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, null, -1, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 65 MB (+2125kb) [00:00:56]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_Counter (program_counter.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_Counter (program_counter.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("program_counter.v", 340, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 56, 43); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 277, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("program_counter.v", 182, 48); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 68 MB (+446kb) [00:01:22]
+selectCodeEditor("program_counter.v", 227, 95); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 252, 39); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 168, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 140, 58); // bH:N (JPanel:JComponent, cv:JFrame)
+// [Engine Memory]: 565 MB (+10953kb) [00:01:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 565 MB. GUI used memory: 38 MB. Current time: 5/12/22 2:07:58 PM EET
+selectCodeEditor("program_counter.v", 240, 121); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 78, 96); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 252, 81); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 252, 45); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 197, 44); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 130, 91); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 110, 96); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 24, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, register_tb (register.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, register_tb (register.v)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("program_counter.v", 147, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 75, 93); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 144, 78); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("program_counter.v", 128, 99); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 285, 39); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 78, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 74 MB (+2027kb) [00:02:55]
+// Elapsed time: 14 seconds
+selectCodeEditor("program_counter.v", 135, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), test - ALU (ALU.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), test - ALU (ALU.v)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// [GUI Memory]: 78 MB (+295kb) [00:03:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("main.v", 462, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("program_counter.v", 51, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 81, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 102, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), test - ALU (ALU.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), test - ALU (ALU.v)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 85 MB (+3732kb) [00:04:39]
+selectCodeEditor("ALU.v", 75, 248); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ALU.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("program_counter.v", 192, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 278, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 45 seconds
+selectCodeEditor("program_counter.v", 85, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("program_counter.v", 363, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 418, 125); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("program_counter.v", 565, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("program_counter.v", 350, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("program_counter.v", 397, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("program_counter.v", 445, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 27, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("program_counter.v", 476, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("program_counter.v", 469, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("program_counter.v", 126, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("program_counter.v", 416, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 580, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 601, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 141, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 77, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 54, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("program_counter.v", 87, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 91, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("program_counter.v", 88, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("program_counter.v", 478, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("program_counter.v", 393, 125); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 92 MB (+2308kb) [00:10:46]
+selectCodeEditor("program_counter.v", 434, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("program_counter.v", 413, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("program_counter.v", 618, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("program_counter.v", 57, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("program_counter.v", 92, 103); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 121, 109); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 79, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 72, 118); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("program_counter.v", 214, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 142, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 214, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 75, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 130, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 28, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 132, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectCodeEditor("program_counter.v", 79, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 230, 39); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 278, 38); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 98, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 151, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 280, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 273, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 238, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, register_tb (register.v)]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, register_tb (register.v)]", 3, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("register.v", 104, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "register.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter (program_counter.v)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter (program_counter.v)]", 5, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("program_counter.v", 46, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 460, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 269, 43); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 488, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 105, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("program_counter.v", 110, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 158, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 58, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 96, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 99, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 80, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("register.v", 302, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("register.v", 40, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "register.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("program_counter.v", 35, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 40, 203); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 586 MB. GUI used memory: 44 MB. Current time: 5/12/22 2:21:49 PM EET
+selectCodeEditor("program_counter.v", 51, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 46, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("program_counter.v", 51, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 38, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 18, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("program_counter.v", 104, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("program_counter.v", 42, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("program_counter.v", 49, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("program_counter.v", 111, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("program_counter.v", 151, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'main' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj main_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, f:bL)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled INFO: [Vivado 12-4704] 'elaborate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 835.980 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String) null); // r:a (ag:z, k:aP)
+// bL:g (k:aP):  Analyze source files for top modules : addNotify
+// R:x (k:aP): Select Top Module: addNotify
+selectList(PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, "program_counter_tb", 3); // S:a (JViewport:JComponent, R:x)
+selectList(PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, "program_counter_tb", 3, false, false, false, false, true); // S:a (JViewport:JComponent, R:x) - Double Click
+dismissDialog("Select Top Module"); // R:x (k:aP)
+selectButton("APPLY", "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top program_counter_tb [get_filesets sim_1] 
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'program_counter_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog -m64 --relax -prj program_counter_tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/program_counter.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module program_counter INFO: [VRFC 10-311] analyzing module program_counter_tb INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot program_counter_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav/xsim.dir/program_counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 49.582 ; gain = 0.000 INFO: [Common 17-206] Exiting Webtalk at Thu May 12 14:23:35 2022... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "program_counter_tb_behav -key {Behavioral:sim_1:Functional:program_counter_tb} -tclbatch {program_counter_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source program_counter_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [Engine Memory]: 597 MB (+4235kb) [00:17:17]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'program_counter_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 835.980 ; gain = 0.000 
+// 'e' command handler elapsed time: 15 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_OBJECTS, "Objects"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:40 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+minimizeFrame(PAResourceOtoP.PAViews_SCOPE, "Scopes"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:40 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:42 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 50 MB. Current time: 5/12/22 2:23:43 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:55 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:55 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:55 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:56 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 47 MB. Current time: 5/12/22 2:23:56 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 52 MB. Current time: 5/12/22 2:23:57 PM EET
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("register.v", 296, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 99 MB (+3179kb) [00:18:00]
+selectCodeEditor("program_counter.v", 108, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 177, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_CLOSE
+// G:be (cv:JFrame): Confirm Close: addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// 'a' command handler elapsed time: 10 seconds
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 850.098 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Confirm Close"); // G:be (cv:JFrame)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'program_counter_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog -m64 --relax -prj program_counter_tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/program_counter.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module program_counter INFO: [VRFC 10-311] analyzing module program_counter_tb INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot program_counter_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav/xsim.dir/program_counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 49.527 ; gain = 0.000 INFO: [Common 17-206] Exiting Webtalk at Thu May 12 14:24:54 2022... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "program_counter_tb_behav -key {Behavioral:sim_1:Functional:program_counter_tb} -tclbatch {program_counter_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source program_counter_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'program_counter_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 850.098 ; gain = 0.000 
+// 'e' command handler elapsed time: 25 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_OBJECTS, "Objects"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+minimizeFrame(PAResourceOtoP.PAViews_SCOPE, "Scopes"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 51 MB. Current time: 5/12/22 2:25:00 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 49 MB. Current time: 5/12/22 2:25:04 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 49 MB. Current time: 5/12/22 2:25:04 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:25:05 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:25:05 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 49 MB. Current time: 5/12/22 2:25:06 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 49 MB. Current time: 5/12/22 2:25:06 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:25:07 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:25:09 PM EET
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 67, 176); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 202, 179); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 321, 160); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 48 MB. Current time: 5/12/22 2:25:13 PM EET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("program_counter.v", 37, 204); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 41, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 61, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 34, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 87, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "program_counter.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 64, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 104, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("program_counter.v", 27, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 30, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 28, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 61, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("program_counter.v", 261, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

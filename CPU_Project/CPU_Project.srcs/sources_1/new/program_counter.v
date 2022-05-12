@@ -1,11 +1,46 @@
 `timescale 1ns / 1ps
 
-module Program_Counter(PC1, PC2, Clk);
-    input [31:0] PC1;
-    output reg [31:0] PC2;
-    input Clk;
-    always @(posedge Clk) 
+module program_counter(PC0, PC1, clk);
+    input [31:0] PC0;
+    output reg [31:0] PC1;
+    input clk;
+    
+    //ALU add(.op1(PC0), .op2(PC1), .OpCode(4'b1001), .Cin(0), .result(wResult), .cflag, .zflag, .oflag, .clk(clk));
+    
+    always @(posedge clk) 
     begin
-        PC2 <= PC1; //Blocking and non-blocking works the same
+        PC1 <= PC0 + 1;
     end
+endmodule
+
+module program_counter_tb();
+reg [31:0] PC0;
+reg clk;
+wire [31:0] PC1;
+
+program_counter PC(PC0, PC1, clk);
+
+initial begin
+clk = 1'b0;
+
+PC0 = 'd0;
+#100;
+
+PC0 = 'd1;
+#100;
+
+PC0 = 'd2;
+#100;
+
+PC0 = 'd3;
+#100;
+
+PC0 = 'd4;
+#100;
+end
+
+always begin
+#10
+clk = ~clk;
+end
 endmodule
