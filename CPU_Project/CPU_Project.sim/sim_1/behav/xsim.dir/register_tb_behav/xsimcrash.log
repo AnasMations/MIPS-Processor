@@ -1,11 +1,13 @@
-Unable to capture context for thread 2648 in process 3796, can not generate back trace
-Unable to capture context for thread 3416 in process 3796, can not generate back trace
-Unable to capture context for thread 10512 in process 3796, can not generate back trace
+Unable to capture context for thread 8504 in process 9200, can not generate back trace
+Unable to capture context for thread 10256 in process 9200, can not generate back trace
+Unable to capture context for thread 13984 in process 9200, can not generate back trace
+Exception at PC 0x00007FFFCBE04F69
+Unable to capture context for thread 8504 in process 9200, can not generate back trace
+Unable to capture context for thread 10256 in process 9200, can not generate back trace
+Unable to capture context for thread 13984 in process 9200, can not generate back trace
 Exception at PC 0x00007FFF88B7BB93
 Printing stacktrace...
 
-Unable to capture context for thread 10512 in process 3796, can not generate back trace
-Exception at PC 0x00007FFFCBE04F69
 Exception at PC 0x00007FFFCBE04F69
 Exception at PC 0x00007FFFCBE04F69
 Exception at PC 0x00007FFFCBE04F69

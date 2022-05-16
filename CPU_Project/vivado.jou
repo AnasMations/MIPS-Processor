@@ -25,3 +25,48 @@ source program_counter_tb.tcl
 close_sim
 launch_simulation
 source program_counter_tb.tcl
+close_sim
+launch_simulation
+source program_counter_tb.tcl
+close_sim
+launch_simulation
+set_property top main [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source main.tcl
+set_property top program_counter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source program_counter_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source program_counter_tb.tcl
+set_property top instruction_memory_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source instruction_memory_tb.tcl
+set_property top register_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source register_tb.tcl
+set_property top program_counter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+current_sim simulation_6
+close_sim
+launch_simulation
+source program_counter_tb.tcl
+set_property top instruction_memory_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+current_sim simulation_7
+close_sim
+launch_simulation
+source instruction_memory_tb.tcl
+close_sim
+current_sim simulation_9
+close_sim
+current_sim simulation_8
+close_sim
+close_sim

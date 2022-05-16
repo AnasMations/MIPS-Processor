@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_ext_xsim.xml'  majorVersion='1' minorVersion='0' timeStamp='Thu May 12 15:15:53 2022'>
+<webTalkData  fileName='usage_statistics_ext_xsim.xml'  majorVersion='1' minorVersion='0' timeStamp='Thu May 12 15:16:18 2022'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="1577090" description="" />
-  <keyValuePair key="date_generated" value="Thu May 12 15:15:53 2022" description="" />
+  <keyValuePair key="date_generated" value="Thu May 12 15:16:17 2022" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="XSIM v2016.2 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="fa3af2a67d7a482ea249b8e79fe7e766" description="" />
-  <keyValuePair key="project_iteration" value="2" description="" />
+  <keyValuePair key="project_id" value="f4755f86-8413-475f-b3f0-d03401c2a037" description="" />
+  <keyValuePair key="project_iteration" value="1" description="" />
   <keyValuePair key="random_id" value="a8105bef-ce81-4613-b394-cda53b52a189" description="" />
   <keyValuePair key="registration_id" value="a8105bef-ce81-4613-b394-cda53b52a189" description="" />
   <keyValuePair key="route_design" value="FALSE" description="" />
@@ -16,7 +16,7 @@
   <keyValuePair key="target_family" value="not_applicable" description="" />
   <keyValuePair key="target_package" value="not_applicable" description="" />
   <keyValuePair key="target_speed" value="not_applicable" description="" />
-  <keyValuePair key="tool_flow" value="xsim_vivado" description="" />
+  <keyValuePair key="tool_flow" value="xsim" description="" />
  </section>
  <section name="user_environment" level="1" order="2" description="">
   <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz" description="" />
@@ -33,9 +33,9 @@
    <keyValuePair key="command" value="xsim" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="iteration" value="0" description="" />
+   <keyValuePair key="iteration" value="1" description="" />
    <keyValuePair key="runtime" value="1 us" description="" />
-   <keyValuePair key="simulation_memory" value="10036_KB" description="" />
+   <keyValuePair key="simulation_memory" value="10080_KB" description="" />
    <keyValuePair key="simulation_time" value="0.03_sec" description="" />
    <keyValuePair key="trace_waveform" value="true" description="" />
   </section>

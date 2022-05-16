@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Thu May 12 13:45:43 2022">
+<application name="pa" timeStamp="Thu May 12 15:15:50 2022">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="13f96e223f7a42ac9e15b90a8e250a54" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -17,101 +17,350 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="7" type="JavaHandler"/>
+<property name="SimulationClose" value="6" type="JavaHandler"/>
+<property name="SimulationRun" value="15" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="ALU.v, 275, 146" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 261, 151" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 75, 248" value="1" type="GuiResourceData"/>
+<property name="APPLY, Apply" value="7" type="GuiResourceData"/>
 <property name="FINISH, Finish" value="1" type="GuiResourceData"/>
-<property name="NEXT, Next " value="7" type="GuiResourceData"/>
-<property name="PAResourceAtoD.AbstractFileView_RELOAD, Reload" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, ALU" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, instruction_memory" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, main" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, operations" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, program_counter" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, register" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, ALU.v], 2, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, ALU.v], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, instruction_memory.v], 2, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, instruction_memory.v], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, instruction_memory.v], 3, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, instruction_memory.v], 3, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, main.v], 4, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, main.v], 4, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, operations.v], 5, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, operations.v], 5, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, program_counter.v], 3, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, program_counter.v], 3, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, program_counter.v], 6, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, program_counter.v], 6, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 1" value="3" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Program_Counter (program_counter.v" value="4" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, instruction_memory (instruction_memory.v" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, main (main.v" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, register (register.v" value="4" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, register_tb (register.v" value="8" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, test_bench (register.v" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_CODE, Code" value="11" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, Virtex-UltraScale VCU110 Evaluation Platform ; xilinx.com ; 1.0 ; xcvu190-flgc2104-2-e ; 2104 ; 1.1 ; 3780 ; 1800 ; 2148480 ; 0 ; 104 ; 416 ; 1074240 ; 30 ; 6 ; 100 ; 0 ; 100 ; E ; 0.979 ; 0.922 ; 0.950 ; 0 ; 52 ; 52 ; 0 ; 0, 8, Virtex-UltraScale VCU110 Evaluation Platform, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, ZYNQ-7 ZC702 Evaluation Board ; xilinx.com ; 1.0 ; xc7z020clg484-1 ; 484 ; 1.2 ; 140 ; 220 ; 106400 ; 0 ; 0 ; 200 ; 53200 ; 4 ; 0 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0, 9, ZYNQ-7 ZC702 Evaluation Board, 0" value="3" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, ZYNQ-7 ZC706 Evaluation Board ; xilinx.com ; 1.1 ; xc7z045ffg900-2 ; 900 ; 1.3 ; 545 ; 900 ; 437200 ; 0 ; 16 ; 362 ; 218600 ; 8 ; 1 ; 85 ; 0 ; 85 ; C ; 1.03 ; 0.97 ; 0.97 ; 16 ; 0 ; 0 ; 0 ; 0, 10, ZYNQ-7 ZC706 Evaluation Board, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, CPU_Project" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="6" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="7" type="GuiResourceData"/>
-<property name="instruction_memory.v, 225, 120" value="1" type="GuiResourceData"/>
-<property name="instruction_memory.v, 276, 89" value="1" type="GuiResourceData"/>
-<property name="instruction_memory.v, 316, 55" value="1" type="GuiResourceData"/>
-<property name="instruction_memory.v, 398, 68" value="1" type="GuiResourceData"/>
-<property name="instruction_memory.v, 420, 171" value="1" type="GuiResourceData"/>
-<property name="instruction_memory.v, 53, 41" value="1" type="GuiResourceData"/>
-<property name="main.v, 119, 212" value="1" type="GuiResourceData"/>
-<property name="main.v, 130, 180" value="1" type="GuiResourceData"/>
-<property name="main.v, 139, 145" value="1" type="GuiResourceData"/>
-<property name="main.v, 146, 119" value="1" type="GuiResourceData"/>
-<property name="main.v, 150, 226" value="1" type="GuiResourceData"/>
-<property name="main.v, 160, 149" value="1" type="GuiResourceData"/>
-<property name="main.v, 198, 227" value="1" type="GuiResourceData"/>
-<property name="main.v, 269, 81" value="1" type="GuiResourceData"/>
-<property name="main.v, 297, 114" value="1" type="GuiResourceData"/>
-<property name="main.v, 325, 189" value="1" type="GuiResourceData"/>
-<property name="main.v, 346, 215" value="1" type="GuiResourceData"/>
-<property name="main.v, 359, 74" value="1" type="GuiResourceData"/>
-<property name="main.v, 367, 80" value="1" type="GuiResourceData"/>
-<property name="main.v, 441, 96" value="1" type="GuiResourceData"/>
-<property name="main.v, 451, 81" value="1" type="GuiResourceData"/>
-<property name="main.v, 479, 119" value="1" type="GuiResourceData"/>
-<property name="main.v, 68, 64" value="1" type="GuiResourceData"/>
-<property name="program_counter.v, 177, 149" value="1" type="GuiResourceData"/>
-<property name="program_counter.v, 262, 103" value="1" type="GuiResourceData"/>
-<property name="program_counter.v, 351, 194" value="1" type="GuiResourceData"/>
-<property name="program_counter.v, 414, 85" value="1" type="GuiResourceData"/>
-<property name="program_counter.v, 466, 78" value="1" type="GuiResourceData"/>
-<property name="register.v, 117, 297" value="1" type="GuiResourceData"/>
-<property name="register.v, 118, 57" value="1" type="GuiResourceData"/>
-<property name="register.v, 137, 38" value="1" type="GuiResourceData"/>
-<property name="register.v, 143, 72" value="1" type="GuiResourceData"/>
-<property name="register.v, 216, 107" value="1" type="GuiResourceData"/>
-<property name="register.v, 227, 99" value="1" type="GuiResourceData"/>
-<property name="register.v, 230, 154" value="1" type="GuiResourceData"/>
-<property name="register.v, 287, 309" value="2" type="GuiResourceData"/>
-<property name="register.v, 300, 129" value="1" type="GuiResourceData"/>
-<property name="register.v, 322, 51" value="1" type="GuiResourceData"/>
-<property name="register.v, 325, 219" value="1" type="GuiResourceData"/>
-<property name="register.v, 358, 111" value="1" type="GuiResourceData"/>
-<property name="register.v, 480, 202" value="1" type="GuiResourceData"/>
-<property name="register.v, 486, 203" value="1" type="GuiResourceData"/>
-<property name="register.v, 53, 37" value="1" type="GuiResourceData"/>
-<property name="register.v, 580, 333" value="1" type="GuiResourceData"/>
-<property name="register.v, 582, 279" value="1" type="GuiResourceData"/>
-<property name="register.v, 610, 331" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="OK, OK" value="7" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, test" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="15" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, test.v], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, test.v], 2, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Program_Counter (program_counter.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, instruction_memory (instruction_memory.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, main (main.v" value="18" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, program_counter (program_counter.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, program_counter_tb (program_counter.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, register_tb (register.v" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, null, -1, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="16" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="7" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/program_counter.v into library work [A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/program_counter.v:1]. ], 25, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-2063] Module anding not found while processing module instance ann [A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/ALU.v:15]. ], 31, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-2063] Module anding not found while processing module instance ann [A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/ALU.v:15]. ], 35" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-2063] Module anding not found while processing module instance ann [A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/ALU.v:15]. ], 35, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1], 29" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="8" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String" value="7" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, Also delete the project local file/directory from disk, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, instruction_memory_tb, 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, instruction_memory_tb, 2, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, main, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, main, 0, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, program_counter_tb, 3" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, program_counter_tb, 3, false, false, false, false, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, register_tb, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, register_tb, 1, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="9" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 153" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 110, 258" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 143, 131" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 154, 276" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 159, 142" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 179, 365" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 181, 137" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 197, 260" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 202, 179" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 281, 147" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 298, 143" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 321, 160" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 390, 145" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 404, 146" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 476, 143" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 479, 157" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 534, 201" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 580, 167" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 66, 179" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 67, 176" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 693, 163" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 696, 161" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 70, 131" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 700, 164" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 739, 257" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 10" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 2" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 4" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 6" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 7" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, out2[31:0]], 7, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, out2[31:0]], 7, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, out2[31:0]], 7, true, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 104, 62" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 116, 247" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 118, 89" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 119, 108" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 126, 284" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 131, 190" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 134, 94" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 135, 295" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 137, 176" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 140, 94" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 146, 180" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 148, 178" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 152, 197" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 158, 238" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 174, 299" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 183, 65" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 193, 103" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 193, 278" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 197, 228" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 200, 46" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 202, 172" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 204, 78" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 206, 94" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 209, 111" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 217, 146" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 219, 80" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 220, 46" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 228, 87" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 232, 43" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 236, 108" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 240, 43" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 25, 159" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 252, 19" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 257, 170" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 263, 75" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 286, 163" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 288, 281" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 300, 185" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 306, 104" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 321, 85" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 328, 198" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 329, 59" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 333, 99" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 340, 195" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 344, 136" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 35, 265" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 350, 35" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 356, 170" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 384, 142" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 396, 140" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 40, 259" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 402, 82" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 404, 88" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 425, 124" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 43, 162" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 43, 262" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 43, 266" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 44, 242" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 440, 264" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 453, 262" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 47, 213" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 490, 118" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 52, 179" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 58, 274" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 69, 89" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 73, 301" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 74, 297" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 85, 289" value="1" type="GuiResourceData"/>
+<property name="instruction_memory.v, 85, 298" value="1" type="GuiResourceData"/>
+<property name="main.v, 234, 116" value="1" type="GuiResourceData"/>
+<property name="main.v, 252, 134" value="1" type="GuiResourceData"/>
+<property name="main.v, 462, 225" value="1" type="GuiResourceData"/>
+<property name="operations.v, 146, 118" value="1" type="GuiResourceData"/>
+<property name="operations.v, 80, 210" value="1" type="GuiResourceData"/>
+<property name="operations.v, 81, 214" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 102, 132" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 104, 173" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 104, 249" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 105, 229" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 108, 59" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 110, 140" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 110, 231" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 110, 96" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 111, 114" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 115, 160" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 121, 109" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 122, 228" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 124, 161" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 125, 249" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 126, 196" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 128, 99" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 130, 198" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 130, 91" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 132, 193" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 135, 108" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 139, 145" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 140, 58" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 141, 182" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 142, 197" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 144, 78" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 147, 59" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 151, 265" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 151, 59" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 152, 165" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 153, 199" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 158, 246" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 163, 87" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 168, 114" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 177, 143" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 179, 163" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 18, 186" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 182, 48" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 189, 162" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 192, 131" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 193, 212" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 196, 172" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 197, 44" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 199, 122" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 211, 159" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 214, 129" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 214, 132" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 215, 95" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 223, 162" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 225, 137" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 227, 149" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 227, 95" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 230, 39" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 235, 207" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 238, 226" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 238, 264" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 24, 111" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 240, 121" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 247, 144" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 25, 129" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 252, 39" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 252, 45" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 252, 81" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 26, 147" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 261, 128" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 268, 80" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 269, 200" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 269, 43" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 27, 131" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 27, 134" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 27, 314" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 273, 262" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 277, 135" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 278, 161" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 278, 38" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 28, 119" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 28, 140" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 28, 179" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 280, 260" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 282, 171" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 285, 39" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 291, 200" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 293, 212" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 295, 188" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 298, 180" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 299, 146" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 30, 241" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 300, 156" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 31, 130" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 31, 143" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 312, 142" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 315, 109" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 329, 177" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 34, 281" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 340, 135" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 342, 141" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 35, 232" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 350, 131" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 363, 124" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 37, 204" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 38, 229" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 380, 148" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 393, 125" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 397, 131" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 398, 175" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 40, 203" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 41, 209" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 41, 96" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 413, 126" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 416, 127" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 418, 125" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 42, 216" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 43, 294" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 434, 111" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 445, 199" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 46, 150" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 46, 264" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 460, 233" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 463, 131" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 469, 126" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 476, 202" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 478, 133" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 488, 232" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 49, 179" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 496, 158" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 51, 127" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 51, 196" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 51, 216" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 51, 228" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 54, 197" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 56, 43" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 565, 130" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 57, 108" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 58, 143" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 58, 162" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 58, 199" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 580, 126" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 601, 127" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 61, 170" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 61, 213" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 61, 243" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 618, 131" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 62, 164" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 64, 285" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 67, 146" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 70, 140" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 72, 118" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 75, 200" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 75, 93" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 76, 125" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 77, 162" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 77, 192" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 78, 167" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 78, 177" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 78, 96" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 788, 130" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 79, 144" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 79, 230" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 79, 277" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 80, 251" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 81, 132" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 85, 127" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 87, 186" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 87, 190" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 87, 284" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 88, 231" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 91, 215" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 92, 103" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 96, 127" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 98, 261" value="1" type="GuiResourceData"/>
+<property name="program_counter.v, 99, 225" value="1" type="GuiResourceData"/>
+<property name="register.v, 104, 230" value="1" type="GuiResourceData"/>
+<property name="register.v, 240, 154" value="1" type="GuiResourceData"/>
+<property name="register.v, 262, 163" value="1" type="GuiResourceData"/>
+<property name="register.v, 296, 259" value="1" type="GuiResourceData"/>
+<property name="register.v, 302, 217" value="1" type="GuiResourceData"/>
+<property name="register.v, 312, 176" value="1" type="GuiResourceData"/>
+<property name="register.v, 40, 262" value="1" type="GuiResourceData"/>
+<property name="register.v, 415, 140" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="28" type="GuiMode"/>
+<property name="GuiMode" value="29" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="26" type="TclMode"/>
+<property name="TclMode" value="27" type="TclMode"/>
 </item>
 </section>
 </application>
