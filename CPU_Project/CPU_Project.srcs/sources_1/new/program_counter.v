@@ -9,11 +9,12 @@ module program_counter(PC0, PC1, clk);
     
     always @(posedge clk) 
     begin
-        PC1 <= PC0 + 1;
+        PC1 <= PC0;
     end
     
 endmodule
 
+/*
 module program_counter_tb();
 reg [31:0] PC0;
 reg clk;
@@ -45,3 +46,4 @@ always begin
 clk = ~clk;
 end
 endmodule
+*/

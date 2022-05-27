@@ -24,7 +24,8 @@ always@(posedge clk) begin
 end
 
 endmodule
-    
+
+/*
 module register_tb();
 reg [31:0] inp;
 reg [4:0] sel_input;
@@ -69,3 +70,4 @@ always begin
 clk = ~clk;
 end
 endmodule
+*/
