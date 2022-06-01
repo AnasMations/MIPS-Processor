@@ -1,16 +1,23 @@
 `timescale 1ns / 1ps
 
-module program_counter(PC0, PC1, clk);
-    input [31:0] PC0;
-    output reg [31:0] PC1;
+module program_counter(Enable, clk, PC);
+    input Enable;
     input clk;
+    output [31:0] PC;
+    
+    reg [31:0] Counter;
     
     //ALU add_one(.op1(PC0), .op2('b1), .OpCode(4'b1001), .Cin(0), .result(PC1), .cflag, .zflag, .oflag, .clk(clk));
+    initial begin
+        Counter = 32'b0;
+    end
     
     always @(posedge clk) 
     begin
-        PC1 <= PC0 + 32'b00000000000000000000000000000001;;
+        Counter <= Counter + 32'b1;;
     end
+       
+    assign PC = Counter;
     
 endmodule
 
