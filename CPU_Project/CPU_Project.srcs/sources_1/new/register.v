@@ -13,6 +13,13 @@ output reg [31:0] out2 //RD2: 32-bit second output
 
 reg [31:0] regFiles [0:31];
 
+integer i;
+initial begin
+    for(i=0; i<32;i=i+1) begin
+        regFiles[i] = 32'b0;
+    end
+end
+
 always@(posedge clk) begin
 
     out1 = regFiles[sel_out1];

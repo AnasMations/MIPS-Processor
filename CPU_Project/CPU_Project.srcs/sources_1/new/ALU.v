@@ -4,11 +4,11 @@ input [31:0] op1,
 input [31:0] op2,
 input [2:0] OpCode,
 input Cin,
+input clk,
 output reg [31:0] result,
 output reg cflag, 
 output reg zflag, 
-output reg oflag,
-input clk
+output reg oflag
 );
 
 wire [32:0] wAnd;
@@ -25,10 +25,10 @@ reg [32:0] temp;
 always @(posedge clk)
 begin
     case(OpCode)
-    3'b000:temp = wAnd;
-    3'b001:temp = wOr;
-    3'b010:temp = wAdd;
-    3'b110:temp = wSub;
+    3'b000:temp = wAdd;
+    3'b010:temp = wSub;
+    3'b100:temp = wAnd;
+    3'b101:temp = wOr;
     endcase
     
     result = {temp[31:0]};

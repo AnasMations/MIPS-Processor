@@ -1,35 +1,32 @@
 `timescale 1ns / 1ps
 
+module control_unit(
+input wire [5:0] OpCode,
+output wire MemtoReg, 
+output wire MemWrite, 
+output wire Branch, 
+output wire Jump, 
+output wire ALUSrc, 
+output wire RegDst, 
+output wire RegWrite,
+output wire [1:0] ALUOp
+);
 
-module control_unit(MemtoReg, MemWrite, Branch, Jump, ALUControl, ALUSrc, RegDst, RegWrite, Op, Funct);
-    output wire MemtoReg, MemWrite, Branch, Jump, ALUSrc, RegDst, RegWrite;
-    output wire [2:0]ALUControl;
-    input [5:0] Op, Funct;
-    reg [9:0]ControlSignals;
-    assign {MemtoReg, MemWrite, Branch, Jump, ALUControl, ALUSrc, RegDst, RegWrite} = ControlSignals;
-    
-    always@(Op, Funct)
-    begin
-        if (Op == 6'b000000) begin
-            case(Funct)
-            6'b100000 | 6'b100001 : ControlSignals <= 10'b0000010011; //ADD
-            6'b100010 | 6'b100011 : ControlSignals <= 10'b0000110011; //SUBTRACT
-            6'b100100 : ControlSignals <= 10'b0000000011;             //AND
-            6'b100101 : ControlSignals <= 10'b0000001011;             //OR
-            endcase
-        end
-        else if (Op == 6'b100011) begin                        //LW
-            ControlSignals <= 10'b1000010101;
-        end
-        else if (Op == 6'b101011) begin                        //SW 
-            ControlSignals <= 10'b1100010100;       
-        end
-        else if (Op == 6'b000010) begin                        //JUMP to Target
-            ControlSignals <= 10'b1001010100;       
-        end
-        else if (Op == 6'b000010) begin                        //Branch
-            ControlSignals <= 10'b1010110000;       
-        end
-    end 
+reg [9:0] ControlSignals;
+assign {RegWrite, RegDst, ALUSrc, Branch, MemWrite, MemtoReg, Jump, ALUOp} = ControlSignals;
+
+always@(OpCode) 
+begin
+    case(OpCode)
+        6'b000000: ControlSignals <= 9'b110000010; //RType
+        6'b100011: ControlSignals <= 9'b101001000; //LW
+        6'b001001: ControlSignals <= 9'b101000000; //li 
+        6'b101011: ControlSignals <= 9'b001010000; //SW
+        6'b000100: ControlSignals <= 9'b000100001; //BEQ
+        6'b001000: ControlSignals <= 9'b101000000; //ADDI
+        6'b000010: ControlSignals <= 9'b000000100; //J
+        default:   ControlSignals <= 9'bxxxxxxxxx; //illegal op
+    endcase
+end 
        
 endmodule
