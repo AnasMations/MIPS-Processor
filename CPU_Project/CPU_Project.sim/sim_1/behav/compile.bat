@@ -1,5 +1,5 @@
 @echo off
-set xv_path=A:\\Downloads\\Applications\\Xilinx\\Vivado\\2016.2\\bin
+set xv_path=D:\\Programs\\Xilinx_Vivado\\Xilinx\\Vivado\\2016.2\\bin
 echo "xvlog -m64 --relax -prj MIPS_vlog.prj"
 call %xv_path%/xvlog  -m64 --relax -prj MIPS_vlog.prj -log xvlog.log
 call type xvlog.log > compile.log

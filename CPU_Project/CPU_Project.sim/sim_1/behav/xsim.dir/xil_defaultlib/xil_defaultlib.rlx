@@ -1,8 +1,6 @@
 0.4
 2016.2
-A:/Desktop/Github/CPU/CPU_Project/CPU_Project.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
-A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/ALU.v,1653627410,verilog,,,,,,,,,,,
-A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/MIPS.v,1653634850,verilog,,,,,,,,,,,
-A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/instruction_memory.v,1653632402,verilog,,,,,,,,,,,
-A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/operations.v,1648718901,verilog,,,,,,,,,,,
-A:/Desktop/Github/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/program_counter.v,1653634927,verilog,,,,,,,,,,,
+C:/Users/SURFACE/Desktop/GitHub/CPU/CPU_Project/CPU_Project.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+C:/Users/SURFACE/Desktop/GitHub/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/MIPS.v,1653907744,verilog,,,,,,,,,,,
+C:/Users/SURFACE/Desktop/GitHub/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/instruction_memory.v,1653906422,verilog,,,,,,,,,,,
+C:/Users/SURFACE/Desktop/GitHub/CPU/CPU_Project/CPU_Project.srcs/sources_1/new/program_counter.v,1653907578,verilog,,,,,,,,,,,

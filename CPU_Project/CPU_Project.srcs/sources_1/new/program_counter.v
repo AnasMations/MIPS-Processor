@@ -9,7 +9,7 @@ module program_counter(PC0, PC1, clk);
     
     always @(posedge clk) 
     begin
-        PC1 <= PC0;
+        PC1 <= PC0 + 32'b00000000000000000000000000000001;;
     end
     
 endmodule
