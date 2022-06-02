@@ -1,0 +1,47 @@
+Unable to capture context for thread 5448 in process 10576, can not generate back trace
+Unable to capture context for thread 10396 in process 10576, can not generate back trace
+Unable to capture context for thread 10472 in process 10576, can not generate back trace
+Unable to capture context for thread 1764 in process 10576, can not generate back trace
+Unable to capture context for thread 2548 in process 10576, can not generate back trace
+Exception at PC 0x00007FF897404FD9
+Unable to capture context for thread 15028 in process 10576, can not generate back trace
+Unable to capture context for thread 396 in process 10576, can not generate back trace
+Unable to capture context for thread 7656 in process 10576, can not generate back trace
+Exception at PC 0x00007FF897404FD9
+Unable to capture context for thread 15028 in process 10576, can not generate back trace
+Unable to capture context for thread 396 in process 10576, can not generate back trace
+Unable to capture context for thread 7656 in process 10576, can not generate back trace
+Exception at PC 0x00007FF840B6BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+[0]  [0x00007FF840B6BB93]
+[1]  [0x00007FF840B6BB93]
+[2]  [0x00007FF840B6B4A1]
+[3]  [0x00007FF840B6B3EF]
+[4]  [0x00007FF840B519FE]
+[5]  [0x00007FF840B50ED1]
+[6]  [0x00007FF840B50D76]
+[7]  [0x00007FF840AF79F6]
+[8]  [0x00007FF840AE7AFB]
+[9]  [0x00007FF840C0E90A]
+[10]  [0x00007FF840C29F87]
+[11]  [0x00007FF840C2A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FF898397034]
+[13] (RtlUserThreadStart+0x21) [0x00007FF899AE2651]
+Done
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
+Exception at PC 0x00007FF897404FD9
