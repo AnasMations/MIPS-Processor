@@ -3,149 +3,164 @@ Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
 Running: A:/Downloads/Applications/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 695d555af1b0463fa0b1bd0b892a438e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MIPS_behav xil_defaultlib.MIPS xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 33 for port A [A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/MIPS.v:61]
-WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 33 for port B [A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/MIPS.v:62]
-WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 33 for port out [A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/MIPS.v:64]
-WARNING: [VRFC 10-1783] select index 1 into ROM is out of bounds [A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:14]
-WARNING: [VRFC 10-1783] select index 2 into ROM is out of bounds [A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:15]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 33 for port A [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/MIPS.v:61]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 33 for port B [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/MIPS.v:62]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 33 for port out [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/MIPS.v:64]
+WARNING: [VRFC 10-1783] select index 1 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:16]
+WARNING: [VRFC 10-1783] select index 2 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:17]
+WARNING: [VRFC 10-1783] select index 4 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:20]
+WARNING: [VRFC 10-1783] select index 5 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:21]
+WARNING: [VRFC 10-1783] select index 6 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:22]
+WARNING: [VRFC 10-1783] select index 8 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:25]
+WARNING: [VRFC 10-1783] select index 9 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:26]
+WARNING: [VRFC 10-1783] select index 10 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:27]
+WARNING: [VRFC 10-1783] select index 12 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:30]
+WARNING: [VRFC 10-1783] select index 13 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:31]
+WARNING: [VRFC 10-1783] select index 14 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:32]
+WARNING: [VRFC 10-1783] select index 16 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:35]
+WARNING: [VRFC 10-1783] select index 17 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:36]
+WARNING: [VRFC 10-1783] select index 18 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:37]
+WARNING: [VRFC 10-1783] select index 20 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:40]
+WARNING: [VRFC 10-1783] select index 21 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:41]
+WARNING: [VRFC 10-1783] select index 22 into ROM is out of bounds [A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/InstructionMemory.v:42]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 50. Module anding doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 65. Module oring doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 8. Module addition_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 32. Module subtraction_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 50. Module anding doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 65. Module oring doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 8. Module addition_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 32. Module subtraction_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "A:/Desktop/CSCI311 Project/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 50. Module anding doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 65. Module oring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 8. Module addition_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 32. Module subtraction_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 50. Module anding doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 65. Module oring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 8. Module addition_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 2. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 32. Module subtraction_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "A:/Desktop/Github/CPU/MIPS/MIPS.srcs/sources_1/new/ALUoperations.v" Line 26. Module FullSubtractor doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.ProgramCounter

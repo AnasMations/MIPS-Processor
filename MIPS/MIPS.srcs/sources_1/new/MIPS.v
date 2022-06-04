@@ -139,11 +139,11 @@ initial
 begin
     CLK = 0;
     reset = 1;
-    #50 
+    #10 
     reset = 0;
-    #50
+    #10
     CLK = 1;
-    forever #50 CLK = ~CLK;
+    forever #10 CLK = ~CLK;
 end  
 
 endmodule
