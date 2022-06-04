@@ -25,3 +25,9 @@ launch_simulation
 source MIPS.tcl
 launch_runs synth_1 -jobs 2
 wait_on_run synth_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+save_wave_config {A:/Desktop/Github/CPU/MIPS/MIPS_behav.wcfg}
+add_files -fileset sim_1 -norecurse A:/Desktop/Github/CPU/MIPS/MIPS_behav.wcfg
+set_property xsim.view A:/Desktop/Github/CPU/MIPS/MIPS_behav.wcfg [get_filesets sim_1]
+close_sim

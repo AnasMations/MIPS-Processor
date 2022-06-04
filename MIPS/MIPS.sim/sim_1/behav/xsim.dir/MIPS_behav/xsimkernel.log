@@ -2,3 +2,6 @@ Running: xsim.dir/MIPS_behav/xsimk.exe -simmode gui -wdb MIPS_behav.wdb -simrunn
 Design successfully loaded
 Design Loading Memory Usage: 8992 KB (Peak: 8992 KB)
 Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 10336 KB (Peak: 10336 KB)
+Simulation CPU Usage: 46 ms

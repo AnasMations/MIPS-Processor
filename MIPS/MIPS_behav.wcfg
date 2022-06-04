@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPS_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPS" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="318500000fs"></ZoomStartTime>
+      <ZoomEndTime time="447500001fs"></ZoomEndTime>
+      <Cursor1Time time="380000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/MIPS/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/PCin" type="array">
+      <obj_property name="ElementShortName">PCin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/PCout" type="array">
+      <obj_property name="ElementShortName">PCout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/memtoreg" type="logic">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/regdst" type="logic">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/alucontrol" type="array">
+      <obj_property name="ElementShortName">alucontrol[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alucontrol[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/WriteDataReg" type="array">
+      <obj_property name="ElementShortName">WriteDataReg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteDataReg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/SignExtend" type="array">
+      <obj_property name="ElementShortName">SignExtend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SignExtend[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/ALU_B" type="array">
+      <obj_property name="ElementShortName">ALU_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/ALUOut" type="array">
+      <obj_property name="ElementShortName">ALUOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOut[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/cflag" type="logic">
+      <obj_property name="ElementShortName">cflag</obj_property>
+      <obj_property name="ObjectShortName">cflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/zflag" type="logic">
+      <obj_property name="ElementShortName">zflag</obj_property>
+      <obj_property name="ObjectShortName">zflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/oflag" type="logic">
+      <obj_property name="ElementShortName">oflag</obj_property>
+      <obj_property name="ObjectShortName">oflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS/ReadData" type="array">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Jun 04 17:36:00 2022">
+<application name="pa" timeStamp="Sat Jun 04 17:56:10 2022">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="89fd7f3edaab419b8818b99467741fd0" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -29,154 +29,24 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="InstructionMemory.v, 100, 143" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 107, 38" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 156, 188" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 161, 215" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 164, 168" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 165, 228" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 173, 229" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 178, 228" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 186, 252" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 186, 252, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 188, 197" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 188, 197, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 188, 231" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 213, 226" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 213, 226, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 213, 231" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 213, 231, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 215, 174" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 215, 174, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 217, 212, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 217, 214" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 217, 214, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 218, 212" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 226, 267" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 226, 267, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 231, 189" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 231, 189, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 235, 215, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 236, 215" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 239, 251" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 239, 251, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 250, 178" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 250, 178, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 257, 189" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 257, 189, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 283, 244" value="2" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 283, 244, false, false, false, false, true" value="2" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 284, 283" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 284, 283, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 305, 261" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 305, 261, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 325, 281" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 325, 281, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 334, 165" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 334, 165, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 48, 222" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 493, 252" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 509, 209" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 521, 252" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 522, 213" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 523, 284" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 525, 155" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 525, 232" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 527, 194" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 530, 248" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 533, 209" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 534, 190" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 534, 213" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 534, 252" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 535, 265" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 535, 287" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 537, 229" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 538, 228" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 538, 299" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 539, 172" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 54, 284" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 540, 227" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 540, 245" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 541, 268" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 543, 250" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 545, 247" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 545, 249" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 546, 174" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 546, 195" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 547, 236" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 547, 249" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 552, 246" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 553, 250" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 557, 210" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 559, 233" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 56, 229" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 566, 193" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 577, 234" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 58, 62" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 583, 214" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 584, 239" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 592, 198" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 602, 92" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 612, 222" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 622, 91" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 626, 149" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 630, 193" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 640, 173" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 666, 159" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 666, 198" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 760, 104" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 88, 244" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 88, 269" value="1" type="GuiResourceData"/>
-<property name="InstructionMemory.v, 89, 173" value="1" type="GuiResourceData"/>
-<property name="MIPS.v, 162, 164" value="1" type="GuiResourceData"/>
-<property name="MIPS.v, 47, 177" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="4" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, MIPS (MIPS.v" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="4" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Run Synthesis], 17, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, ADDI $s0, $zero, 65535" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 121, 245" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 142, 166" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 179, 246" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 181, 164" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 198, 458" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 202, 140" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 205, 192" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 211, 247" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 259, 178" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 271, 250" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 311, 382" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 321, 442" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 34, 250" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 382, 440" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 386, 203" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 386, 445" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 402, 205" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 407, 426" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 417, 407" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 438, 474" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 450, 426" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 451, 461" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 458, 192" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 469, 536" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 471, 478" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 502, 361" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 508, 376" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 512, 177" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 514, 412" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 199" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 526, 348" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 534, 483" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 547, 385" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 554, 441" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 561, 417" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 627, 400" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 664, 177" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 673, 413" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 244" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 94, 170" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 2*" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, ALUOut[31:0]], 16, true" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 126, 209" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 136, 178" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 239, 96" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 270, 53" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 354, 150" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 45, 204" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 566, 154" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 604, 142" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 625, 263" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 725, 36" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 76, 215" value="1" type="GuiResourceData"/>
+<property name="InstructionMemory.v, 98, 216" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design, Schematic], 17, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.StateMonitor_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
 </item>
 <item name="Other">
 <property name="GuiMode" value="37" type="GuiMode"/>
